@@ -1,0 +1,117 @@
+body {
+    background-color: grey;
+    font-family: sans-serif;
+
+}
+
+.card {
+    background-color: aquamarine;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.header-line {
+    background-color: #fff;
+    width: 100%;
+    height: 5px;
+}
+
+.output {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.out {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100px;
+    padding-top: 20px;
+    margin-top: 15px;
+    /* background-color: #fff; */
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.in {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+#input-1 {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+#Enter {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: transparent;
+    color: #fff;
+    background-color: rgb(239, 38, 239);
+    font-weight: bold;
+    transition: 0.3s;
+}
+.div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#reload{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    transition: 0.3s;
+    
+}
+#reload:hover{
+    background-color: darkorange;
+
+}
+#Enter:hover {
+    background-color: rgb(237, 107, 237);
+
+}
+
+.detail {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sp {
+    margin-left: 5px;
+}
